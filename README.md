@@ -21,3 +21,6 @@ python ppo_absorber_visnir.py --cpu 16 --maxlen 6 --exp_name absorber6 --use_rnn
 Max length = 15:  
 python ppo_absorber_visnir.py --cpu 16 --maxlen 15 --exp_name perfect_absorber15 --use_rnn --discrete_thick --num_runs 1 --env PerfectAbsorberVisNIR-v1
 
+## To do list:
+- 1. Add perturbation to thickness
+- 2. Add extra rewards at middle steps
