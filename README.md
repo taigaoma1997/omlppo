@@ -8,7 +8,7 @@ RL course project for the PyTorch implementation for OML-PPO (https://iopscience
 - torchvision=0.5.0
 - tmm=0.1.7
 
-## 
+## Make environments
 - make environment: conda create --name py37 python=3.7
 - make RLMultilayer package: pip install -e .
 - Install any necessary packages. 
