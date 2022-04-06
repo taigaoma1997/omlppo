@@ -1,0 +1,55 @@
+{
+    "ac_kwargs":	{
+        "act_emb":	true,
+        "act_emb_dim":	5,
+        "cell_size":	64,
+        "channels":	16,
+        "hidden_sizes":	[
+            64,
+            64
+        ],
+        "hierarchical":	true,
+        "not_repeat":	true,
+        "ortho_init":	"on",
+        "scalar_thick":	false
+    },
+    "actor_critic":	"RNNActorCritic",
+    "beta":	0.01,
+    "clip_ratio":	0.2,
+    "env_fn":	"make",
+    "epochs":	3000,
+    "exp_name":	"perfect_absorber15",
+    "gamma":	1,
+    "lam":	0.95,
+    "logger":	{
+        "<RLMultilayer.algos.ppo.utils.logx.EpochLogger object at 0x7f3c22ed4e10>":	{
+            "epoch_dict":	{},
+            "exp_name":	"perfect_absorber15",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"./Experiments/perfect_absorber15/2022-04-06",
+            "output_file":	{
+                "<_io.TextIOWrapper name='./Experiments/perfect_absorber15/2022-04-06/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"perfect_absorber15",
+        "output_dir":	"./Experiments/perfect_absorber15/2022-04-06"
+    },
+    "max_ep_len":	15,
+    "pi_lr":	5e-05,
+    "reward_factor":	1,
+    "save_freq":	10,
+    "seed":	42,
+    "spectrum_repr":	false,
+    "steps_per_epoch":	1000,
+    "target_kl":	0.01,
+    "train_pi_iters":	5,
+    "train_v_iters":	80,
+    "use_rnn":	true,
+    "vf_lr":	0.0003
+}
