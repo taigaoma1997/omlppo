@@ -1,6 +1,6 @@
-# OML-PPO
+# OMLPPO
 
-RL course project for the PyTorch implementation for OML-PPO (https://iopscience.iop.org/article/10.1088/2632-2153/abc327) without spinningup
+This is the EECS 598 - 002 RL course project for the PyTorch implementation for OML-PPO (https://iopscience.iop.org/article/10.1088/2632-2153/abc327) without spinningup
 
 ## Prerequisites
 - python=3.7.4
